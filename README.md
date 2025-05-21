@@ -1,12 +1,27 @@
-# React + Vite
+# CryptoRadar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **CryptoRadar**, your go-to React app for live cryptocurrency tracking — powered by CoinGecko API, styled with Tailwind, and engineered with Vite for lightning-fast performance.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔎 Search and explore top cryptocurrencies
+- 📊 Real-time price, market cap, and 24h changes
+- 💱 Currency switcher (USD, EUR, INR)
+- 📈 Interactive historical price charts for each coin
+- ⚡ Responsive UI for smooth experience on all devices
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- React Router DOM
+- Tailwind CSS
+- CoinGecko Public API
+
+## Installation
+
+```bash
+git clone https://github.com/zohaibakhtar336/CryptoRadar.git
+cd CryptoRadar
+npm install
+npm run dev
